@@ -1,0 +1,7 @@
+'comment': 'ESO Lua'
+'fileTypes': [ 'lua' ]
+'name': 'ESO Lua'
+'patterns': [
+  'include': 'source.lua'
+]
+'scopeName': 'source.eso-lua'

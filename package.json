@@ -1,0 +1,24 @@
+{
+  "name": "eso-atom",
+  "version": "0.0.0",
+  "private": false,
+  "author": "Arthur <arthur@corenzan.com>",
+  "description": "Toolkit for ESO add-on development in Atom.",
+  "repository": "https://github.com/haggen/eso-atom",
+  "license": "CC-BY-NC-SA 4.0",
+  "main": "./index.coffee",
+  "engines": {
+    "atom": ">=0.50.0"
+  },
+  "dependencies": {
+    "fuzzysearch": "^1.0.3",
+    "language-lua": ">=0.9.3"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provider"
+      }
+    }
+  }
+}

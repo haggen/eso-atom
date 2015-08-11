@@ -1,0 +1,26 @@
+'comment': 'ESO Manifest'
+'fileTypes': [ 'txt' ]
+'firstLineMatch': '^##'
+'name': 'ESO Manifest'
+'patterns': [
+  {
+    'match': '\\b;.*$'
+    'name': 'comment.line.semicolon'
+  }
+  {
+    'match': '^(##) (Title|Description|Author|Version|APIVersion|OptionalDependsOn|DependsOn|SavedVariables):(.+)'
+    'name': 'meta.tag'
+    'captures':
+      '1':
+        'name': 'keyword.operator'
+      '2':
+        'name': 'entity.name.tag'
+      '3':
+        'name': 'string.unquoted'
+  }
+  {
+    'match': '\\$\\(.+\\)'
+    'name': 'variable.language'
+  }
+]
+'scopeName': 'source.eso-txt'
