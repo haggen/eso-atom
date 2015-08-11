@@ -1,6 +1,6 @@
 {
   "name": "eso-atom",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": false,
   "author": "Arthur <arthur@corenzan.com>",
   "description": "Toolkit for ESO add-on development in Atom.",
